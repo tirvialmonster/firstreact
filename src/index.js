@@ -8,7 +8,7 @@ import './less/App.less';
 import './less/Homepage.less';
 
 import App from './js/App';
-import Homepage from './js/Homepage';
+import Homepage from './js/home/Homepage';
 
 import registerServiceWorker from './modules/registerServiceWorker';
 

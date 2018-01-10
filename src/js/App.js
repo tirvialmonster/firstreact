@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from '../images/logo.svg';
-import Login from './Login'
+import Login from './home/Login';
 
 export default class App extends Component {
-    
     render() {
         return (
             <div className="app">
