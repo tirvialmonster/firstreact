@@ -1,16 +1,15 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 import {render} from 'react-dom';
-import {BrowserRouter as Router,Route} from 'react-router-dom'
+import {HashRouter as Router,Route} from 'react-router-dom'
+
+import registerServiceWorker from './modules/registerServiceWorker';
+import App from './components/App';
+import Homepage from './components/home/Homepage';
 
 import './less/index.less';
 import './less/App.less';
 import './less/Homepage.less';
-
-import App from './js/App';
-import Homepage from './js/home/Homepage';
-
-import registerServiceWorker from './modules/registerServiceWorker';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
@@ -25,6 +24,6 @@ render(
 		</Router>
 	),
 	document.getElementById('root')
-)
+);
 
 registerServiceWorker();
